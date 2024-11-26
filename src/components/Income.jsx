@@ -12,13 +12,7 @@ export default function Home() {
     capitalGains: "",
     pension: "",
     otherIncome: "",
-    // socialSecurity: "",
-    // alimony: "",
-    // realEstate: "",
-    // unemployment: "",
-    // stateRefunds: "",
-    // prizes: "",
-    // juryFees: "",
+
   });
 
   const [moreIncome, setMoreIncome]= useState({
@@ -38,11 +32,7 @@ export default function Home() {
     retirementContributionsIRSa: "",
     alimonyPaid: "",
     otherDeductions: "",
-    // selfEmploymentTax: "",
-    // hsaContributions: "",
-    // healthInsurance: "",
-    // retirementContributions: "",
-    // movingExpenses: "",
+ 
   });
 
   const [moreDeductions, setMoreDeductions] = useState({
